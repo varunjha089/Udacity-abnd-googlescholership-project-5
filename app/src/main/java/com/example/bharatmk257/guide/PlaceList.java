@@ -21,9 +21,9 @@ public class PlaceList extends AppCompatActivity {
         tabLayout = findViewById(R.id.sliding_tabs);
         viewPager = findViewById(R.id.viewpager);
 
-        tabLayout.addTab(tabLayout.newTab().setText("Kakariya"));
-        tabLayout.addTab(tabLayout.newTab().setText("Reading \nLibrary"));
-        tabLayout.addTab(tabLayout.newTab().setText("Auto World"));
+        tabLayout.addTab(tabLayout.newTab().setText("Food"));
+        tabLayout.addTab(tabLayout.newTab().setText("Library"));
+        tabLayout.addTab(tabLayout.newTab().setText("Entertainment"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
 

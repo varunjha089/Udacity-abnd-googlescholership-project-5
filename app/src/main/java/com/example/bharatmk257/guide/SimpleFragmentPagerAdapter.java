@@ -11,7 +11,7 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     private Context fragmentContext;
     int totalTabs;
-    private String tabTitles[] = new String[] { "Kakariya", "Reading \nLibrary","Auto World" };
+    private String tabTitles[] = new String[] { "Food", "Library","Entertainment" };
 
     public SimpleFragmentPagerAdapter(Context context, FragmentManager fragmentManager, int totalTab){
         super(fragmentManager);
@@ -25,15 +25,15 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
         switch (position){
 
             case 0:
-                KakariyaFragment kakariyaFragment =new KakariyaFragment();
-                return kakariyaFragment;
+                FoodFragment foodFragment =new FoodFragment();
+                return foodFragment;
 
             case 1:
-                ReadingLibraryFragment readingLibraryFragment = new ReadingLibraryFragment();
-                return readingLibraryFragment;
+                LibraryFragment libraryFragment = new LibraryFragment();
+                return libraryFragment;
             case 2:
-                AutoWorldFragment autoWorldFragment = new AutoWorldFragment();
-                return autoWorldFragment;
+                EntertainmentFragment entertainmentFragment = new EntertainmentFragment();
+                return entertainmentFragment;
 
             default:
                 return null;

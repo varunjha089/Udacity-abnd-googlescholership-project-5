@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-public class KakariyaFragment extends Fragment {
+public class FoodFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private PlaceAdapter adapter;
@@ -21,8 +21,8 @@ public class KakariyaFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-//View view = inflater.inflate(R.layout.fragment_kakariya,container,false);
-        return inflater.inflate(R.layout.fragment_kakariya, null);
+//View view = inflater.inflate(R.layout.fragment_food,container,false);
+        return inflater.inflate(R.layout.fragment_food, null);
     }
 
     @Override
@@ -36,7 +36,7 @@ public class KakariyaFragment extends Fragment {
     }
 
     private void initViews() {
-        recyclerView = getActivity().findViewById(R.id.recyclerViewPlace);
+        recyclerView = getActivity().findViewById(R.id.recyclerViewFoodPlace);
     }
 
 //    public void onCreate(Bundle savedInstanceState) {
@@ -45,39 +45,39 @@ public class KakariyaFragment extends Fragment {
 
     private void photos() {
         int[] covers = new int[]{
-                R.drawable.tajmahal,
-                R.drawable.tajmahal,
-                R.drawable.tajmahal,
-                R.drawable.tajmahal,
-                R.drawable.tajmahal,
-                R.drawable.tajmahal,
-                R.drawable.tajmahal,
-                R.drawable.tajmahal,
-                R.drawable.tajmahal,
-                R.drawable.tajmahal
+                R.raw.food_image,
+                R.raw.food_image,
+                R.raw.food_image,
+                R.raw.food_image,
+                R.raw.food_image,
+                R.raw.food_image,
+                R.raw.food_image,
+                R.raw.food_image,
+                R.raw.food_image,
+                R.raw.food_image
         };
 
         placesList = new ArrayList<>();
         Places
-                a = new Places("tajmahal", covers[0], "Location");
+                a = new Places("Hotel Damjis", covers[0], "Location");
         placesList.add(a);
-        a = new Places("chali", covers[1], "Loction");
+        a = new Places("Hotel Pinnacle", covers[1], "Loction");
         placesList.add(a);
-        a = new Places("whatsapp", covers[2], "Loction");
+        a = new Places("Moti Mahal", covers[2], "Loction");
         placesList.add(a);
-        a = new Places("samsung", covers[3], "Loction");
+        a = new Places("Hotel AVN", covers[3], "Loction");
         placesList.add(a);
-        a = new Places("gmail", covers[4], "Loction");
+        a = new Places("Hotel Amber", covers[4], "Loction");
         placesList.add(a);
-        a = new Places("motorola", covers[5], "Loction");
+        a = new Places("Hotel Manila", covers[5], "Loction");
         placesList.add(a);
-        a = new Places("phone", covers[6], "Loction");
+        a = new Places("Ramada", covers[6], "Loction");
         placesList.add(a);
-        a = new Places("photo", covers[7], "Loction");
+        a = new Places("Cama Hotel", covers[7], "Loction");
         placesList.add(a);
-        a = new Places("sony", covers[8], "Loction");
+        a = new Places("Summit", covers[8], "Loction");
         placesList.add(a);
-        a = new Places("gionee", covers[9], "Loction");
+        a = new Places("Nami", covers[9], "Loction");
         placesList.add(a);
 
 //        adapter.notifyDataSetChanged();
