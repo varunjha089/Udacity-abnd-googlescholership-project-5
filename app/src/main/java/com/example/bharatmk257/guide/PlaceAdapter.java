@@ -9,19 +9,15 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.bumptech.glide.Glide;
-
 import java.util.List;
 
 public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.MyViewHolder> {
     private Context mContext;
     private List<Places> placesList;
-
     public class MyViewHolder extends RecyclerView.ViewHolder{
         public TextView nameOfPlace,locate;
         public ImageView imageOfPlace;
-
         public MyViewHolder(View view){
             super(view);
             nameOfPlace = (TextView) view.findViewById(R.id.name_of_place);
@@ -29,19 +25,16 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.MyViewHolder
             imageOfPlace = (ImageView) view.findViewById(R.id.image_of_place);
         }
     }
-
     public PlaceAdapter(Context mContext, List<Places> placesList){
         this.mContext = mContext;
         this.placesList = placesList;
     }
-
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.place_card,parent,false);
         return new MyViewHolder(itemView);
     }
-
 
 
     @Override
