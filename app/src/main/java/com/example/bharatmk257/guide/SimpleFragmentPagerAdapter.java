@@ -5,10 +5,13 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.bumptech.glide.load.engine.Resource;
+
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     private Context fragmentContext;
     int totalTabs;
-    private String tabTitles[] = new String[] { "Food", "Library","Entertainment" };
+    private String tabTitles[] = new String[] {"food", "library","entertainment", "extra"};
     public SimpleFragmentPagerAdapter(Context context, FragmentManager fragmentManager, int totalTab){
         super(fragmentManager);
         fragmentContext = context;
@@ -26,6 +29,9 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
             case 2:
                 EntertainmentFragment entertainmentFragment = new EntertainmentFragment();
                 return entertainmentFragment;
+            case 3:
+                ExtraFragment extraFragment = new ExtraFragment();
+                return extraFragment;
             default:
                 return null;
         }

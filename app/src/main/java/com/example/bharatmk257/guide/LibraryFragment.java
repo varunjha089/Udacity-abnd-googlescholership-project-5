@@ -32,37 +32,38 @@ public class LibraryFragment extends Fragment {
     }
     private void photos(){
         int[] covers = new int[]{
-                R.raw.library_image,
-                R.raw.library_image,
-                R.raw.library_image,
-                R.raw.library_image,
-                R.raw.library_image,
-                R.raw.library_image,
-                R.raw.library_image,
-                R.raw.library_image,
-                R.raw.library_image,
-                R.raw.library_image
+                R.drawable.library,
+                R.drawable.library,
+                R.drawable.library,
+                R.drawable.library,
+                R.drawable.library,
+                R.drawable.library,
+                R.drawable.library,
+                R.drawable.library,
+                R.drawable.library,
+                R.drawable.library
         };
+        String[] library = getResources().getStringArray(R.array.library);
         placesList =new ArrayList<>();
-        Places a = new Places("Reading library",covers[0],"Location");
+        Places a = new Places(library[0],covers[0],library[10]);
         placesList.add(a);
-        a = new Places("MJ Library",covers[1],"Location");
+        a = new Places(library[1],covers[1],library[10]);
         placesList.add(a);
-        a = new Places("G.S.",covers[2],"Location");
+        a = new Places(library[2],covers[2],library[10]);
         placesList.add(a);
-        a = new Places("Naroda Library",covers[3],"Location");
+        a = new Places(library[3],covers[3],library[10]);
         placesList.add(a);
-        a = new Places("Vikram Sarabhai",covers[4],"Location");
+        a = new Places(library[4],covers[4],library[10]);
         placesList.add(a);
-        a = new Places("Garg Library",covers[5],"Location");
+        a = new Places(library[5],covers[5],library[10]);
         placesList.add(a);
-        a = new Places("Shreeji",covers[6],"Location");
+        a = new Places(library[6],covers[6],library[10]);
         placesList.add(a);
-        a = new Places("Asarva Library",covers[7],"Location");
+        a = new Places(library[7],covers[7],library[10]);
         placesList.add(a);
-        a = new Places("Shubh",covers[8],"Location");
+            a = new Places(library[8],covers[8],library[10]);
         placesList.add(a);
-        a = new Places("American Corner",covers[9],"Location");
+        a = new Places(library[9],covers[9],library[10]);
         placesList.add(a);
     }
 }

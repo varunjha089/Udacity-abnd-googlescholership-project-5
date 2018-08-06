@@ -33,37 +33,38 @@ public class FoodFragment extends Fragment {
     }
     private void photos() {
         int[] covers = new int[]{
-                R.raw.food_image,
-                R.raw.food_image,
-                R.raw.food_image,
-                R.raw.food_image,
-                R.raw.food_image,
-                R.raw.food_image,
-                R.raw.food_image,
-                R.raw.food_image,
-                R.raw.food_image,
-                R.raw.food_image
+                R.drawable.food,
+                R.drawable.food,
+                R.drawable.food,
+                R.drawable.food,
+                R.drawable.food,
+                R.drawable.food,
+                R.drawable.food,
+                R.drawable.food,
+                R.drawable.food,
+                R.drawable.food
         };
+        String[] food = getResources().getStringArray(R.array.food);
         placesList = new ArrayList<>();
-        Places a = new Places("Hotel Damjis", covers[0], "Location");
+        Places a = new Places(food[0], covers[0], food[10]);
         placesList.add(a);
-        a = new Places("Hotel Pinnacle", covers[1], "Loction");
+        a = new Places(food[1], covers[1], food[10]);
         placesList.add(a);
-        a = new Places("Moti Mahal", covers[2], "Loction");
+        a = new Places(food[2], covers[2], food[10]);
         placesList.add(a);
-        a = new Places("Hotel AVN", covers[3], "Loction");
+        a = new Places(food[3], covers[3], food[10]);
         placesList.add(a);
-        a = new Places("Hotel Amber", covers[4], "Loction");
+        a = new Places(food[4], covers[4], food[10]);
         placesList.add(a);
-        a = new Places("Hotel Manila", covers[5], "Loction");
+        a = new Places(food[5], covers[5], food[10]);
         placesList.add(a);
-        a = new Places("Ramada", covers[6], "Loction");
+        a = new Places(food[6], covers[6], food[10]);
         placesList.add(a);
-        a = new Places("Cama Hotel", covers[7], "Loction");
+        a = new Places(food[7], covers[7], food[10]);
         placesList.add(a);
-        a = new Places("Summit", covers[8], "Loction");
+        a = new Places(food[8], covers[8], food[10]);
         placesList.add(a);
-        a = new Places("Nami", covers[9], "Loction");
+        a = new Places(food[9], covers[9], food[10]);
         placesList.add(a);
     }
 }

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--for tab-->
+    <string-array name="tab">
+        <item>@string/food</item>
+        <item>@string/library</item>
+        <item>@string/entertainment</item>
+        <item>@string/extra</item>
+    </string-array>
+    <!--for food-->
+    <string-array name="food">
+        <item>@string/food_1</item>
+        <item>@string/food_2</item>
+        <item>@string/food_3</item>
+        <item>@string/food_4</item>
+        <item>@string/food_5</item>
+        <item>@string/food_6</item>
+        <item>@string/food_7</item>
+        <item>@string/food_8</item>
+        <item>@string/food_9</item>
+        <item>@string/food_10</item>
+        <item>@string/location</item>
+    </string-array>
+    <!--for library-->
+    <string-array name="library">
+        <item>@string/library_1</item>
+        <item>@string/library_2</item>
+        <item>@string/library_3</item>
+        <item>@string/library_4</item>
+        <item>@string/library_5</item>
+        <item>@string/library_6</item>
+        <item>@string/library_7</item>
+        <item>@string/library_8</item>
+        <item>@string/library_9</item>
+        <item>@string/library_10</item>
+        <item>@string/location</item>
+    </string-array>
+    <!--for entertainment-->
+    <string-array name="entertainment">
+        <item>@string/entertatinmen_1</item>
+        <item>@string/entertatinmen_2</item>
+        <item>@string/entertatinmen_3</item>
+        <item>@string/entertatinmen_4</item>
+        <item>@string/entertatinmen_5</item>
+        <item>@string/entertatinmen_6</item>
+        <item>@string/entertatinmen_7</item>
+        <item>@string/entertatinmen_8</item>
+        <item>@string/entertatinmen_9</item>
+        <item>@string/entertatinmen_10</item>
+        <item>@string/location</item>
+    </string-array>
+    <!--for extra-->
+    <string-array name="extra">
+        <item>@string/extra_1</item>
+        <item>@string/extra_2</item>
+        <item>@string/extra_3</item>
+        <item>@string/extra_4</item>
+        <item>@string/extra_5</item>
+        <item>@string/extra_6</item>
+        <item>@string/extra_7</item>
+        <item>@string/extra_8</item>
+        <item>@string/extra_9</item>
+        <item>@string/extra_10</item>
+        <item>@string/location</item>
+    </string-array>
+</resources>

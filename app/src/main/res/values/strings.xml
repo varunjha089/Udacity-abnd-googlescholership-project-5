@@ -2,6 +2,56 @@
     <string name="app_name">Guide</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Start">Start Exploring</string>
     <string name="locate">locate</string>
+    <string name="location">location</string>
+    <string name="explore">Explore</string>
+    <string name="food">Food</string>
+    <string name="library">Library</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="extra">Extra</string>
+    <!--food list-->
+    <string name="food_1">Hotel Damjis</string>
+    <string name="food_2">Hotel Pinnacle</string>
+    <string name="food_3">Moti Mahal</string>
+    <string name="food_4">Hotel AVN</string>
+    <string name="food_5">Hotel Amber</string>
+    <string name="food_6">Hotel Manila</string>
+    <string name="food_7">Ramada</string>
+    <string name="food_8">Cama Hotel</string>
+    <string name="food_9">Summit</string>
+    <string name="food_10">Nami</string>
+    <!--for library-->
+    <string name="library_1">Reading library</string>
+    <string name="library_2">MJ Library</string>
+    <string name="library_3">G.S.</string>
+    <string name="library_4">Naroda Library</string>
+    <string name="library_5">Vikram Sarabhai</string>
+    <string name="library_6">Garg Library</string>
+    <string name="library_7">Shreeji</string>
+    <string name="library_8">Asarva Library</string>
+    <string name="library_9">Shubh</string>
+    <string name="library_10">American Corner</string>
+    <!--for entertainment-->
+    <string name="entertatinmen_1">Sonic Gaming Zone</string>
+    <string name="entertatinmen_2">Jacks Gaming Zone</string>
+    <string name="entertatinmen_3">Majama Game Zone</string>
+    <string name="entertatinmen_4">Zorba Game Zone</string>
+    <string name="entertatinmen_5">D2 Gamezone</string>
+    <string name="entertatinmen_6">Fun Chowk</string>
+    <string name="entertatinmen_7">Bowling Alley</string>
+    <string name="entertatinmen_8">G9 Gaming Zone</string>
+    <string name="entertatinmen_9">Gaming Zone</string>
+    <string name="entertatinmen_10">5D Adventure</string>
+    <!--for extra-->
+    <string name="extra_1">Rajhans Cinemas</string>
+    <string name="extra_2">Miraj Cinemas</string>
+    <string name="extra_3">McDonald s</string>
+    <string name="extra_4">Prince Corner</string>
+    <string name="extra_5">Only Dosa</string>
+    <string name="extra_6">Parsana Gym</string>
+    <string name="extra_7">Oxygen Gym</string>
+    <string name="extra_8">Panchani Fitness</string>
+    <string name="extra_9">Life Fitness</string>
+    <string name="extra_10">Sadguru Garden</string>
 </resources>

@@ -14,9 +14,10 @@ public class PlaceList extends AppCompatActivity {
         setContentView(R.layout.activity_placelist);
         tabLayout = findViewById(R.id.sliding_tabs);
         viewPager = findViewById(R.id.viewpager);
-        tabLayout.addTab(tabLayout.newTab().setText("Food"));
-        tabLayout.addTab(tabLayout.newTab().setText("Library"));
-        tabLayout.addTab(tabLayout.newTab().setText("Entertainment"));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.food));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.library));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.entertainment));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.extra));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         SimpleFragmentPagerAdapter adapter = new SimpleFragmentPagerAdapter(getApplicationContext(),getSupportFragmentManager(),tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
