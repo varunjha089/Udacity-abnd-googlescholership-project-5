@@ -1,23 +1,22 @@
 package com.example.bharatmk257.guide;
 
 import android.content.Context;
+import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.bumptech.glide.load.engine.Resource;
-
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     private Context fragmentContext;
-    int totalTabs;
-    private String tabTitles[] = new String[] {"food", "library","entertainment", "extra"};
+    private int totalTabs;
+  //  String[] tab = fragmentContext.getResources().getStringArray(R.array.tab);
+    private String tabTitles[] = new String[]{"food", "library","entertainment", "extra"};
     public SimpleFragmentPagerAdapter(Context context, FragmentManager fragmentManager, int totalTab){
         super(fragmentManager);
         fragmentContext = context;
         this.totalTabs = totalTab;
     }
-    @Override
     public Fragment getItem(int position) {
         switch (position){
             case 0:

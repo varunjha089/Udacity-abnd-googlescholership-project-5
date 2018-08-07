@@ -35,8 +35,6 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.MyViewHolder
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.place_card,parent,false);
         return new MyViewHolder(itemView);
     }
-
-
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
@@ -46,11 +44,9 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.MyViewHolder
         //loading images
         Glide.with(mContext).load(places.getImageOfPlace()).into(holder.imageOfPlace);
     }
-
     @Override
     public int getItemCount() {
         return placesList.size();
     }
-
 }
 
